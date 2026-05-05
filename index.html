@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AISH - PORTFOLIO</title>
+  <title>VOIDBERRY SMP - PORTFOLIO</title>
   <style>
     * {
       margin: 0;
@@ -107,24 +107,45 @@
       color: #00c6ff;
     }
 
-    .telegram-btn {
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .btn {
       display: inline-block;
-      margin-top: 25px;
       padding: 12px 25px;
-      background: linear-gradient(135deg, #00c6ff, #0072ff);
       border: none;
       border-radius: 50px;
       color: white;
       font-size: 1.1em;
       text-decoration: none;
       transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .visit-btn {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
       box-shadow: 0 0 10px #00c6ff;
     }
 
-    .telegram-btn:hover {
+    .visit-btn:hover {
       background: linear-gradient(135deg, #0072ff, #00c6ff);
       transform: scale(1.05);
       box-shadow: 0 0 20px #00c6ff;
+    }
+
+    .discord-btn {
+      background: linear-gradient(135deg, #5865F2, #404EED);
+      box-shadow: 0 0 10px #5865F2;
+    }
+
+    .discord-btn:hover {
+      background: linear-gradient(135deg, #404EED, #5865F2);
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #5865F2;
     }
 
     footer {
@@ -146,16 +167,16 @@
   <!-- Content -->
   <div class="container">
     <div class="card">
-      <img src="file.png" alt="AISH" class="profile-pic" />
+      <img src="file.png" alt="VOIDBERRY SMP" class="profile-pic" />
       <h1>VOIDBERRY SMP</h1>
-      <p> Hey minecraft players we have the best smp here for everyone </p>
+      <p>Hey minecraft players we have the best smp here for everyone</p>
 
       <div class="info-box">
         <h2>About Me</h2>
         <ul>
           <li><strong>Server active status:</strong> 24/7</li>
           <li><strong>Performance:</strong> smooth Gameplay with 6Gb dedicated RAM</li>
-          <li><strong>crossplaying status:</strong> Java & Bedrock(Pe) </li>
+          <li><strong>crossplaying status:</strong> Java & Bedrock(Pe)</li>
         </ul>
       </div>
 
@@ -168,19 +189,14 @@
         </ul>
       </div>
 
-      <a href="https://discord.gg/FEfaNt7rW" class="discord-btn">Join Discord</a>  </div>
+      <div class="button-container">
+        <a href="https://voidberrysmp.netlify.app/" class="btn visit-btn">Visit Site</a>
+        <a href="https://discord.gg/FEfaNt7rW" class="btn discord-btn">Join Discord</a>
+      </div>
+    </div>
 
     <footer>© 2026 All rights reserved.</footer>
   </div>
 
 </body>
 </html>
-
-
-* MADE BY @CYBER_D3VILL  </div>
-
-</body>
-</html>
-
-
-* MADE BY @CYBER_D3VILL
